@@ -1,10 +1,12 @@
-var greet = function() {
-  return 'Hi! My name is ' + this.name
-}
+const _ = import('lodash')
 
-var person = {
-  name: 'Play Ra',
-  greet 
+function run() {
+  console.log('abc')
 }
-
-person.greet()
+ 
+var realFunction = 
+  _.debounce(run, 1500)
+ 
+realFunction()
+realFunction()
+realFunction()
