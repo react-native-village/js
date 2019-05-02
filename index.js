@@ -1,12 +1,3 @@
-const _ = import('lodash')
+const pincode = '123'
 
-function run() {
-  console.log('abc')
-}
- 
-var realFunction = 
-  _.debounce(run, 1500)
- 
-realFunction()
-realFunction()
-realFunction()
+pincode.split('').map(x => x)
