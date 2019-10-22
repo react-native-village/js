@@ -1,3 +1,5 @@
-const pincode = '123'
+const helloWorld = hi => {
+  return hi
+}
 
-pincode.split('').map(x => x)
+console.log(helloWorld('Hello World'))
